@@ -80,6 +80,7 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View v) {
                 new DownloadJsonAsyncTask()
                         .execute("http://nli.univale.br/apicliente/api/cliente/retornaclientes?tipo=json");
+                        //.execute("https://192.168.134.181/apicliente/api/cliente/retornaclientes?tipo=json");
                 //"http://10.0.2.2/apicliente/api/cliente/retornaclientes?tipo=json");
                 //"http://10.0.2.2:3630/api/cliente/retornaclientes?tipo=json");
 

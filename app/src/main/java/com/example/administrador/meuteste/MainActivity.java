@@ -67,6 +67,12 @@ int valor;
             //return true;
         }
 
+        if (id == R.id.action_cadastrados) {
+            Intent intent = new Intent(MainActivity.this, Main5Activity.class);
+            startActivity(intent);
+            //return true;
+        }
+
 
         if (id == R.id.action_sair)
         {
